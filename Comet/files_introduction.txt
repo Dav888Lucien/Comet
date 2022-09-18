@@ -1,0 +1,10 @@
+Comet
+├── Comet
+│   ├── __init__.py
+│   ├── asgi.py     【接收网络请求】【不要动】
+│   ├── settings.py 【项目配置】【常常修改】
+│   ├── urls.py     【url和函数的对应关系】【常常修改】
+│   └── wsgi.py     【接收网络请求】【不要动】
+├── files_introduction.txt
+├── manage.py       【项目管理】【不要动】
+└── templates
