@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comet</title>
+    <link rel="stylesheet"  href='{% static 'css/Homepage.css' %}'>
+</head>
+<body>
+    <div class="siteHeader">
+        <section id="section_1" class="section_1">
+            <div>comet</div>
+        </section>
+
+        <section id="section_2" class="section_2">
+           <div class ="search bar">
+               <form method="post" action="">
+                   {% csrf_token %}
+
+                   <input type="text" name="searchItem" placeholder="search here">
+                   <button type="submit"></button>
+               </form>
+           </div>
+
+        </section>
+    </div>
+
+</body>
+</html>
