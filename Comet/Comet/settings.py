@@ -85,9 +85,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'comet_01',
-        'USER': 'root',
-        'PASSWORD': 'wananzanwan1314',
-        'HOST': 'localhost',
+        'USER': 'comet',
+        'PASSWORD': '123456',
+        'HOST': '120.78.165.145',
         'PORT': 3306,
     }
 }
